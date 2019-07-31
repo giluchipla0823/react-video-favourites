@@ -34,3 +34,6 @@ npm i react-router-dom
 
 # Ciclo de vida de componente
 http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+
+- ComponentDidMount: Montaje finalizado del componente.
+- ComponentDidCatch: Cuando se lanza una excepción en alguno de los componentes hijos del componente padre. Usado mas que nada para situaciones en las que no se tiene controlado lo que ocurrirá en un componete. Ejemplo: API.
