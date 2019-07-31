@@ -1,0 +1,36 @@
+# Repositorio de react
+https://github.com/facebook/create-react-app
+
+# Librerías de npm
+https://www.npmjs.com/
+
+# pose
+https://popmotion.io/pose/learn/route-transitions-reach-router/
+
+# Instalación
+npx create-react-app video-favourites 
+cd video-favourites
+npm start
+
+# Repositorio del curso
+https://github.com/CodelyTV/reactjs-video-favourites-app
+
+# Prop-types
+https://reactjs.org/docs/typechecking-with-proptypes.html
+
+https://github.com/facebook/create-react-app/issues/3985#issuecomment-363410237
+
+# Creación de componentes funcionales.
+La principal diferencia con los componentes de clases es que estos no tienen estado y son muy simples. Al no tener estado y solo recibir datos por ‘props’ no tienen lógica compleja y no tienen el ciclo de vida igual que los componentes creados en clases ‘Components’
+
+
+# componentDidMount
+- Puede ser asyncrono y no afecta esta lógica porque no maneja un valor "return"
+
+# React router
+
+npm i react-router
+npm i react-router-dom
+
+# Ciclo de vida de componente
+http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
