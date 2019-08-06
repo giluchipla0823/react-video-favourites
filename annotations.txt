@@ -37,3 +37,10 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 - ComponentDidMount: Montaje finalizado del componente.
 - ComponentDidCatch: Cuando se lanza una excepción en alguno de los componentes hijos del componente padre. Usado mas que nada para situaciones en las que no se tiene controlado lo que ocurrirá en un componete. Ejemplo: API.
+
+
+# Install netlify
+npm install netlify-cli -g
+
+# Proyecto a producción
+npm run build

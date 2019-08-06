@@ -1,8 +1,8 @@
-import React, {Component} from "react";
+import React, {PureComponent} from "react";
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 
-class Item extends Component{
+class Item extends PureComponent{
 	render(){
 		const { id, thumbnail, title } = this.props.data;
 		return (<Link className="grid-item-link" to={`/${id}`}>
